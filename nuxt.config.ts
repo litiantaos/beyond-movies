@@ -15,8 +15,8 @@ export default defineNuxtConfig({
     sitemap: ['/sitemap.xml']
   },
   sitemap: {
-    sources: ['/api/sitemap/movies', '/api/sitemap/tvs'],
+    sources: ['/api/sitemap/urls'],
     sitemaps: true,
-    defaultSitemapsChunkSize: 2000
+    defaultSitemapsChunkSize: 30000
   }
 })
